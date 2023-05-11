@@ -1,7 +1,7 @@
 variable "name" {
     description = "name of the sql server"
     type = string
-    default = "bdo"
+    default = "mybdo"
 }
 
 variable "location" {
