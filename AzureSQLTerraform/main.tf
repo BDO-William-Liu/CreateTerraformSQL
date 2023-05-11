@@ -23,7 +23,7 @@ resource "azurerm_resource_group" "AzureRG" {
 }
 
 resource "azurerm_sql_server" "AzureSQLServer" {
-  name = "${var.name}-SQLServer"
+  name = var.name
   resource_group_name = azurerm_resource_group.AzureRG.name
   location = azurerm_resource_group.AzureRG.location
   version = "12.0"  // changing this value will force a new resource to be created
