@@ -1,7 +1,7 @@
 variable "name" {
     description = "name of the sql server"
     type = string
-    default = "terraformSQL"
+    default = "terraformsql"
 }
 
 variable "location" {
