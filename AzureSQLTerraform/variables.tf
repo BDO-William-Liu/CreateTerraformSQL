@@ -10,6 +10,12 @@ variable "location" {
     default = ""
 }
 
+variable "resource_group" {
+    description = "resource group of the sql server"
+    type = string
+    default = ""
+}
+
 variable "admin_username" {
     description = "username for admin of server to login"
     type = string
